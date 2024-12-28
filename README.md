@@ -1,10 +1,17 @@
 # kitty
+
 Theme for the Kitty terminal app
 
 ## Usage
 
-Copy and paste the contents of `electron_highlighter.conf` at the bottom of your `kitty.conf` file, then reload Kitty to see changes applied.
+Electron Highlighter is included as a theme in Kitty. You can update your theme in Kitty by using the built-in `theme` kitten. Run this in your terminal:
 
-### What if I have an existing theme?
+```
+kitten themes
+```
 
-If you've set a theme using Kitty's built-in theme picker, you likely have a file called `current-theme.conf`. If that's the case, you can copy and paste the contents of `electron_highlighter.conf` into that file (delete the previous contents first).
+You'll find Electron Highlighter in there to select from, and Kitty will update your config for you.
+
+### Alternative installation
+
+If you prefer, you can copy the contents of the config file located in this repository and paste them into your own config file (that is all the `kitten` script does).
